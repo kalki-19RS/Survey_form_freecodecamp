@@ -1,0 +1,91 @@
+<link rel="stylesheet" href="styles.css">
+
+<h1 id="title">Student Information Form</h1>
+<p id="description">Thank you! for taking time to fill The Student information form</p>
+
+<form id="survey-form">
+  <div class="input-element">
+    <label id="name-label">
+      Name
+      </label>
+      <input placeholder="name" id="name" type="text"
+      required/>
+      </div>
+
+<div class="input-element">
+    <label id="email-label" >
+      Email 
+      </label>
+      <input placeholder="email"  id="email" type="email"
+      required/>
+      </div>
+
+
+<div class="input-element">
+    <label id="number-label">
+      Age
+      </label>
+      <input placeholder="age" id="number" 
+      min="5" max="100" type="number"
+      required/>
+      </div>
+
+<div class="input-element">
+    <label id="select-label">
+      Which is your stream?
+      </label>
+      <select id="dropdown">
+        <option>Arts</option>
+        <option>Commerce</option>
+        <option>Science</option>
+        </select>
+      </div>
+
+<div class="input-element" >
+  <label>Do you have any Disability?</label>
+  <div>
+<label><input type="radio" name="Handicap" value="yes"/>Yes</label>
+</div>
+<div>
+<label><input type="radio" name="Handicap" value="no":/>No</label>
+  </div>
+</div>
+
+
+<div class="input-element">
+<label>Which modes of transport you  prefer generally?</label>
+ 
+  <div>
+<label><input type="checkbox" name="transport" value="foot"/>By Foot</label>
+</div>
+
+<div>
+<label><input type="checkbox" name="transport" value="bicycle" />Bicycle</label>
+  </div>
+
+<div>
+<label><input type="checkbox" name="transport" value="bus" />Bus</label>
+  </div>
+
+<div>
+<label><input type="checkbox" name="transport" value="train" />Train</label>
+  </div>
+
+<div>
+<label><input type="checkbox" name="transport" value="others"/>Others</label>
+  </div>
+
+</div>
+
+
+
+<div class="input-element">
+<label>Additional comments</lable>
+<div>
+<textarea type="text"></textarea>
+</div>
+</div>
+<button type="submit" id="submit">
+  Submit
+  </button>
+      </form>
